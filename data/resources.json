@@ -1,1394 +1,1539 @@
 [
   {
     "resource_id": "RES001",
-    "org_id": "ORG001",
+    "municipality": "Billerica", 
     "org_name": "Billerica Access Television",
     "resource_name": "Media Training Workshops",
     "category": "Education_and_Training",
     "subcategory": "Digital Media Production",
     "resource_level": "Resource",
     "description": "In-person",
-    "URL": "https://www.batvinc.org/workshops.html",
-    "": ""
+    "url": "https://www.batvinc.org/workshops.html",
+    "populations": [
+	"General public"	]
+
   },
   {
     "resource_id": "RES002",
-    "org_id": "ORG001",
+    "municipality": "Billerica", 
     "org_name": "Billerica Access Television",
     "resource_name": "Media Literacy Programs",
     "category": "Education_and_Training",
     "subcategory": "Media Literacy",
     "resource_level": "Resource",
     "description": "In-person",
-    "URL": "https://www.batvinc.org/educlasses.html",
-    "": ""
-  },
+    "url": "https://www.batvinc.org/educlasses.html",
+  "populations": [
+	"Youth"
+	]  },
   {
     "resource_id": "RES003",
-    "org_id": "ORG002",
+    "municipality": "Billerica", 
     "org_name": "Billerica Boys & Girls Club",
     "resource_name": "STEAMcenter Makerspace",
     "category": "Education_and_Training",
     "subcategory": "Makerspace Learning",
     "resource_level": "Resource",
     "description": "In-person",
-    "URL": "https://www.billericabgc.com/steamcenter-makerspace",
-    "": ""
+    "url": "https://www.billericabgc.com/steamcenter-makerspace",
+      "populations": [
+	"Youth"
+	]
   },
   {
     "resource_id": "RES004",
-    "org_id": "ORG003",
+    "municipality": "Billerica", 
     "org_name": "Billerica Public Library",
     "resource_name": "Public Wi‑Fi",
     "category": "Connectivity",
     "subcategory": "Public Wi-Fi",
     "resource_level": "Service",
     "description": "In-person",
-    "URL": "https://billericalibrary.org/tech/",
-    "": ""
+    "url": "https://billericalibrary.org/tech/",
+    "populations": [
+    "General public"
+  ]
   },
   {
     "resource_id": "RES005",
-    "org_id": "ORG003",
+    "municipality": "Billerica", 
     "org_name": "Billerica Public Library",
     "resource_name": "Hotspot Lending",
     "category": "Connectivity",
     "subcategory": "Hotspot Lending",
     "resource_level": "Service",
     "description": "Loan-based",
-    "URL": "https://mvlc.ent.sirsi.net/client/en_US/billerica/search/detailnonmodal/ent:$002f$002fSD_ILS$002f0$002fSD_ILS:78835/one",
-    "": ""
-  },
+    "url": "https://mvlc.ent.sirsi.net/client/en_US/billerica/search/detailnonmodal/ent:$002f$002fSD_ILS$002f0$002fSD_ILS:78835/one",
+    "populations": [
+    "General public"
+  ]  },
   {
     "resource_id": "RES006",
-    "org_id": "ORG003",
+    "municipality": "Billerica", 
     "org_name": "Billerica Public Library",
     "resource_name": "Library App",
     "category": "Civic Access",
     "subcategory": "Library Digital Services",
     "resource_level": "Platform",
     "description": "Online",
-    "URL": "https://billericalibrary.org/tech/",
-    "": ""
+    "url": "https://billericalibrary.org/tech/",
+    "populations": [
+    "General public"
+  ]
   },
   {
     "resource_id": "RES007",
-    "org_id": "ORG003",
+    "municipality": "Billerica", 
     "org_name": "Billerica Public Library",
     "resource_name": "Computer Workstations",
     "category": "Devices",
     "subcategory": "Public Computers",
     "resource_level": "Service",
     "description": "In-person",
-    "URL": "https://billericalibrary.org/tech/",
-    "": ""
+    "url": "https://billericalibrary.org/tech/",
+    "populations": [
+    "General public"
+  ]
   },
   {
     "resource_id": "RES008",
-    "org_id": "ORG003",
+    "municipality": "Billerica", 
     "org_name": "Billerica Public Library",
     "resource_name": "Tech Help Program",
     "category": "Support",
     "subcategory": "Digital Navigation",
     "resource_level": "Program",
     "description": "Hybrid",
-    "URL": "https://billericalibrary.org/tech/",
-    "": ""
+    "url": "https://billericalibrary.org/tech/",
+    "populations": [
+    "General public",
+    "Seniors"
+  ]
   },
+
   {
     "resource_id": "RES009",
-    "org_id": "ORG004",
+    "municipality": "Billerica", 
     "org_name": "Council on Aging",
     "resource_name": "Computer Lab",
     "category": "Devices",
     "subcategory": "Computer Labs",
     "resource_level": "Service",
     "description": "In-person",
-    "URL": "https://billericacoa.org/my-active-center",
-    "": ""
+    "url": "https://billericacoa.org/my-active-center",
+    "populations": [
+    "Seniors"
+  ]
   },
   {
     "resource_id": "RES010",
-    "org_id": "ORG004",
+    "municipality": "Billerica", 
     "org_name": "Council on Aging",
     "resource_name": "Tech Support & Computer Classes",
     "category": "Support",
     "subcategory": "Digital Navigation",
     "resource_level": "Program",
     "description": "In-person",
-    "URL": "https://billericacoa.org/activities/",
-    "": ""
-  },
+    "url": "https://billericacoa.org/activities/",
+  "populations": [
+    "Seniors"
+  ]  },
   {
     "resource_id": "RES011",
-    "org_id": "ORG005",
+    "municipality": "Billerica", 
     "org_name": "Recreation Department",
     "resource_name": "Digital Literacy Courses",
     "category": "Education_and_Training",
     "subcategory": "Digital Literacy",
     "resource_level": "Resource",
     "description": "Online",
-    "URL": "https://www.ed2go.com/billerica/",
-    "": ""
-  },
+    "url": "https://www.ed2go.com/billerica/",
+  "populations": [
+    "General public"
+  ]  },
   {
     "resource_id": "RES012",
-    "org_id": "ORG006",
+    "municipality": "Billerica", 
     "org_name": "Town of Billerica",
     "resource_name": "Online Services (311, Bill Pay, etc.)",
     "category": "Civic Access",
     "subcategory": "Digital Government Services",
     "resource_level": "Platform",
     "description": "Online",
-    "URL": "https://billerica.gov/",
-    "": ""
-  },
+    "url": "https://billerica.gov/",
+  "populations": [
+    "General public"
+  ]  },
   {
     "resource_id": "RES013",
-    "org_id": "ORG006",
+    "municipality": "Billerica", 
     "org_name": "Town of Billerica",
     "resource_name": "Website Accessibility Resources",
     "category": "Accessibility",
     "subcategory": "Website Accessibility",
     "resource_level": "Resource",
     "description": "Online",
-    "URL": "https://billerica.gov/accessibility",
-    "": ""
-  },
+    "url": "https://billerica.gov/accessibility",
+  "populations": [
+    "People with disabilities"
+  ]  },
   {
     "resource_id": "RES014",
-    "org_id": "ORG007",
+    "municipality": "Chelmsford", 
     "org_name": "Chelmsford Public Library",
     "resource_name": "Public Wi‑Fi",
     "category": "Connectivity",
     "subcategory": "Public Wi-Fi",
     "resource_level": "Service",
     "description": "In-person",
-    "URL": "https://www.chelmsfordlibrary.org",
-    "": ""
-  },
+    "url": "https://www.chelmsfordlibrary.org",
+    "populations": [
+    "General public"
+  ]  },
   {
     "resource_id": "RES015",
-    "org_id": "ORG007",
+    "municipality": "Chelmsford", 
     "org_name": "Chelmsford Public Library",
     "resource_name": "Hotspot Lending",
     "category": "Connectivity",
     "subcategory": "Hotspot Lending",
     "resource_level": "Service",
     "description": "Loan-based",
-    "URL": "https://mvlc.ent.sirsi.net/client/en_US/chelmsford/search/detailnonmodal/ent:$002f$002fSD_ILS$002f0$002fSD_ILS:1171614/one",
-    "": ""
-  },
+    "url": "https://mvlc.ent.sirsi.net/client/en_US/chelmsford/search/detailnonmodal/ent:$002f$002fSD_ILS$002f0$002fSD_ILS:1171614/one",
+    "populations": [
+    "General public", 
+    "Low-income"
+]  },
   {
     "resource_id": "RES016",
-    "org_id": "ORG007",
+    "municipality": "Chelmsford", 
     "org_name": "Chelmsford Public Library",
     "resource_name": "Tech Help",
     "category": "Support",
     "subcategory": "",
     "resource_level": "Service",
     "description": "In-person",
-    "URL": "https://www.chelmsfordlibrary.org/services/tech-help",
-    "": ""
-  },
+    "url": "https://www.chelmsfordlibrary.org/services/tech-help",
+    "populations": [
+    "General public",
+    "Seniors"
+  ]  },
   {
     "resource_id": "RES017",
-    "org_id": "ORG007",
+    "municipality": "Chelmsford", 
     "org_name": "Chelmsford Public Library",
     "resource_name": "Digital Training Sessions",
     "category": "Education_and_Training",
     "subcategory": "Digital Literacy",
     "resource_level": "",
     "description": "In-person",
-    "URL": "https://www.chelmsfordlibrary.org/services/tech-help",
-    "": ""
-  },
+    "url": "https://www.chelmsfordlibrary.org/services/tech-help",
+   "populations": [
+    "General public",
+    "Seniors"
+  ]  },
   {
     "resource_id": "RES018",
-    "org_id": "ORG007",
+    "municipality": "Chelmsford", 
     "org_name": "Chelmsford Senior Center",
     "resource_name": "Technology Presentations",
     "category": "Support",
     "subcategory": "",
     "resource_level": "Service",
     "description": "In-person",
-    "URL": "Senior Center / Council on Aging | Chelmsford, MA - Official Website",
-    "": ""
-  },
+    "url": "Senior Center / Council on Aging | Chelmsford, MA - Official Website",
+   "populations": [
+    "Seniors"
+  ]  },
   {
     "resource_id": "RES019",
-    "org_id": "ORG009",
+    "municipality": "Chelmsford", 
     "org_name": "Town of Chelmsford",
     "resource_name": "Fiber Network Infrastructure",
     "category": "Connectivity",
     "subcategory": "Broadband Infrastructure",
     "resource_level": "Infrastructure",
     "description": "Hybrid",
-    "URL": "https://www.chelmsfordlibrary.org/services/printing-copying-scanning-faxing",
-    "": ""
-  },
+    "url": "https://www.chelmsfordlibrary.org/services/printing-copying-scanning-faxing",
+   "populations": [
+    "General public"
+  ]  },
   {
     "resource_id": "RES020",
-    "org_id": "ORG009",
+    "municipality": "Chelmsford", 
     "org_name": "Town of Chelmsford",
     "resource_name": "Public Wi‑Fi Networks",
     "category": "Connectivity",
     "subcategory": "Public Wi-Fi",
     "resource_level": "Service",
     "description": "In-person",
-    "URL": "https://www.chelmsfordma.gov/",
-    "": ""
-  },
+    "url": "https://www.chelmsfordma.gov/",
+   "populations": [
+    "General public",
+  ]  },
   {
     "resource_id": "RES021",
-    "org_id": "ORG010",
+    "municipality": "Chelmsford", 
     "org_name": "Chelmsford Housing Authority",
     "resource_name": "Resident Support Services",
     "category": "Support",
     "subcategory": "Referral Services",
     "resource_level": "Service",
     "description": "In-person",
-    "URL": "https://www.chelmsfordha.com/residents.aspx",
-    "": ""
-  },
+    "url": "https://www.chelmsfordha.com/residents.aspx",
+   "populations": [
+    "General public",
+    "People with disabilities",
+    "Low-income"
+  ]  },
   {
     "resource_id": "RES022",
-    "org_id": "ORG011",
+    "municipality": "Chelmsford", 
     "org_name": "Senior Center",
     "resource_name": "Technology Training Programs",
     "category": "Education_and_Training",
     "subcategory": "Senior Digital Literacy",
     "resource_level": "Resource",
     "description": "In-person",
-    "URL": "https://www.chelmsfordma.gov/223/Council-on-Aging-Senior-Center",
-    "": ""
-  },
+    "url": "https://www.chelmsfordma.gov/223/Council-on-Aging-Senior-Center",
+"populations": [
+    "Seniors",
+  ]   },
   {
     "resource_id": "RES023",
-    "org_id": "ORG011",
+    "municipality": "Chelmsford", 
     "org_name": "Senior Center",
     "resource_name": "Digital Training Sessions",
     "category": "Education_and_Training",
     "subcategory": "Senior Digital Literacy",
     "resource_level": "Resource",
     "description": "In-person",
-    "URL": "https://www.chelmsfordma.gov/223/Council-on-Aging-Senior-Center",
-    "": ""
-  },
+    "url": "https://www.chelmsfordma.gov/223/Council-on-Aging-Senior-Center",
+"populations": [
+    "Seniors"
+  ]   },
   {
     "resource_id": "RES024",
-    "org_id": "ORG012",
+    "municipality": "Dracut", 
     "org_name": "Parker Memorial Library",
     "resource_name": "Public Wi‑Fi",
     "category": "Connectivity",
     "subcategory": "Public Wi-Fi",
     "resource_level": "Service",
     "description": "In-person",
-    "URL": "https://www.dracutlibrary.org/services/wifi-and-computers/",
-    "": ""
-  },
+    "url": "https://www.dracutlibrary.org/services/wifi-and-computers/",
+"populations": [
+    "General public"
+  ]   },
   {
     "resource_id": "RES025",
-    "org_id": "ORG012",
+    "municipality": "Dracut", 
     "org_name": "Parker Memorial Library",
     "resource_name": "Hotspot Lending",
     "category": "Connectivity",
     "subcategory": "Hotspot Lending",
     "resource_level": "Service",
     "description": "Loan-based",
-    "URL": "https://mvlc.ent.sirsi.net/client/en_US/dracut/search/results?qu=hot%20spot&te=",
-    "": ""
-  },
+    "url": "https://mvlc.ent.sirsi.net/client/en_US/dracut/search/results?qu=hot%20spot&te=",
+"populations": [
+    "General public",
+    "Low-income"
+  ]   },
   {
     "resource_id": "RES026",
-    "org_id": "ORG012",
+    "municipality": "Dracut", 
     "org_name": "Parker Memorial Library",
     "resource_name": "Computer Access (Desktops)",
     "category": "Devices",
     "subcategory": "Public Computers",
     "resource_level": "Service",
     "description": "In-person",
-    "URL": "https://www.dracutlibrary.org/services/wifi-and-computers/",
-    "": ""
-  },
+    "url": "https://www.dracutlibrary.org/services/wifi-and-computers/",
+"populations": [
+    "General public"
+  ]  },
   {
     "resource_id": "RES027",
-    "org_id": "ORG012",
+    "municipality": "Dracut", 
     "org_name": "Parker Memorial Library",
     "resource_name": "Printing/Scanning Services",
     "category": "Devices",
     "subcategory": "Printing & Document Services",
     "resource_level": "Service",
     "description": "In-person",
-    "URL": "https://www.dracutlibrary.org/services/printers-copiers/",
-    "": ""
-  },
+    "url": "https://www.dracutlibrary.org/services/printers-copiers/",
+"populations": [
+    "General public"
+  ]  },
   {
     "resource_id": "RES028",
-    "org_id": "ORG013",
+    "municipality": "Dracut", 
     "org_name": "Dracut Senior Center",
     "resource_name": "Public Wi‑Fi",
     "category": "Connectivity",
     "subcategory": "Public Wi-Fi",
     "resource_level": "Service",
     "description": "In-person",
-    "URL": "https://www.dracutma.gov/200/Senior-Center",
-    "": ""
-  },
+    "url": "https://www.dracutma.gov/200/Senior-Center",
+    "populations": [
+    "Seniors"
+  ]  },
   {
     "resource_id": "RES029",
-    "org_id": "ORG014",
+    "municipality": "Dracut", 
     "org_name": "Dracut Access TV",
     "resource_name": "Livestreaming Services",
     "category": "Civic Access",
     "subcategory": "Community Media",
     "resource_level": "Service",
     "description": "Online",
-    "URL": "https://dracuttv.org/livestream/",
-    "": ""
-  },
+    "url": "https://dracuttv.org/livestream/",
+    "populations": [
+    "General public"
+  ]  },
   {
     "resource_id": "RES030",
-    "org_id": "ORG014",
+    "municipality": "Dracut", 
     "org_name": "Dracut Access TV",
     "resource_name": "Media Production & Training",
     "category": "Education_and_Training",
     "subcategory": "Digital Media Production",
     "resource_level": "Resource",
     "description": "In-person",
-    "URL": "https://dracuttv.org/get-involved/learning-and-training/",
-    "": ""
-  },
+    "url": "https://dracuttv.org/get-involved/learning-and-training/",
+   "populations": [
+    "General public", 
+    "Youth"
+  ]  },
   {
     "resource_id": "RES031",
-    "org_id": "ORG016",
+    "municipality": "Dracut", 
     "org_name": "Town of Dracut",
     "resource_name": "Online Municipal Services",
     "category": "Civic Access",
     "subcategory": "Digital Government Services",
     "resource_level": "Platform",
     "description": "Online",
-    "URL": "https://www.dracutma.gov/101/Services",
-    "": ""
-  },
+    "url": "https://www.dracutma.gov/101/Services",
+    "populations": [
+    "General public", 
+    "Youth"
+  ]   },
   {
     "resource_id": "RES032",
-    "org_id": "ORG017",
+    "municipality": "Lowell", 
     "org_name": "Pollard Memorial Library",
     "resource_name": "Public Wi‑Fi & Computer Access",
     "category": "Connectivity",
     "subcategory": "Public Wi-Fi",
     "resource_level": "Service",
     "description": "In-person",
-    "URL": "https://lowelllibrary.org/services/",
-    "": ""
-  },
+    "url": "https://lowelllibrary.org/services/",
+    "populations": [
+    "General public", 
+  ]   },
   {
     "resource_id": "RES033",
-    "org_id": "ORG017",
+    "municipality": "Lowell", 
     "org_name": "Pollard Memorial Library",
     "resource_name": "Tech Help Sessions",
     "category": "Support",
     "subcategory": "Digital Navigation",
     "resource_level": "Program",
     "description": "In-person",
-    "URL": "https://lowelllibrary.org/services/technology-at-the-library/",
-    "": ""
-  },
+    "url": "https://lowelllibrary.org/services/technology-at-the-library/",
+    "populations": [
+    "General public", 
+    "Seniors"
+  ]   },
   {
     "resource_id": "RES034",
-    "org_id": "ORG017",
+    "municipality": "Lowell", 
     "org_name": "Pollard Memorial Library",
     "resource_name": "Tech @ Home & Workshops",
     "category": "Education_and_Training",
     "subcategory": "Digital Literacy",
     "resource_level": "Resource",
     "description": "Hybrid",
-    "URL": "https://lowelllibrary.org/services/technology-at-the-library/",
-    "": ""
+    "url": "https://lowelllibrary.org/services/technology-at-the-library/",
+    "populations": [
+    "General public", 
+    "Seniors"
+  ] 
   },
   {
     "resource_id": "RES035",
-    "org_id": "ORG018",
+    "municipality": "Lowell", 
     "org_name": "City of Lowell",
     "resource_name": "Online Municipal Services (311, Payments, Permits)",
     "category": "Civic Access",
     "subcategory": "Digital Government Services",
     "resource_level": "Platform",
     "description": "Online",
-    "URL": "https://www.lowellma.gov/313/Pay-Your-Bills-Online",
-    "": ""
-  },
+    "url": "https://www.lowellma.gov/313/Pay-Your-Bills-Online",
+    "populations": [
+    "General public"
+  ]  },
   {
     "resource_id": "RES036",
-    "org_id": "ORG021",
+    "municipality": "Lowell", 
     "org_name": "UMass Lowell",
     "resource_name": "Guest Wi‑Fi Access",
     "category": "Connectivity",
     "subcategory": "Public Wi-Fi",
     "resource_level": "Service",
     "description": "In-person",
-    "URL": "https://www.uml.edu/it/services/get-connected/wifi-splash/",
-    "": ""
-  },
+    "url": "https://www.uml.edu/it/services/get-connected/wifi-splash/",
+    "populations": [
+    "General public"
+  ]  },
   {
     "resource_id": "RES037",
-    "org_id": "ORG022",
+    "municipality": "Lowell", 
     "org_name": "Middlesex Community College",
     "resource_name": "Guest Wi‑Fi Access",
     "category": "Connectivity",
     "subcategory": "Public Wi-Fi",
     "resource_level": "Service",
     "description": "In-person",
-    "URL": "https://www.middlesex.edu/informationtechnology/wireless.html",
-    "": ""
-  },
+    "url": "https://www.middlesex.edu/informationtechnology/wireless.html",
+   "populations": [
+    "General public"
+  ]  },
   {
     "resource_id": "RES038",
-    "org_id": "ORG023",
+    "municipality": "Lowell", 
     "org_name": "Boys & Girls Club of Greater Lowell",
     "resource_name": "Computer Labs & Device Access",
     "category": "Devices",
     "subcategory": "Computer Labs",
     "resource_level": "Service",
     "description": "In-person",
-    "URL": "https://lbgc.org/programs/academic-support/",
-    "": ""
-  },
+    "url": "https://lbgc.org/programs/academic-support/",
+   "populations": [
+    "Youth"
+  ]  },
   {
     "resource_id": "RES039",
-    "org_id": "ORG023",
+    "municipality": "Lowell", 
     "org_name": "Boys & Girls Club of Greater Lowell",
     "resource_name": "Digital Skills & Certifications",
     "category": "Education_and_Training",
     "subcategory": "Workforce Digital Skills",
     "resource_level": "Resource",
     "description": "Hybrid",
-    "URL": "https://lbgc.org/programs/steam/",
-    "": ""
-  },
+    "url": "https://lbgc.org/programs/steam/",
+   "populations": [
+    "Youth"
+  ]  },
   {
     "resource_id": "RES040",
-    "org_id": "ORG026",
+    "municipality": "Lowell", 
     "org_name": "MassHire Greater Lowell Career Center",
     "resource_name": "Computer Resource Center",
     "category": "Devices",
     "subcategory": "Public Computers",
     "resource_level": "Service",
     "description": "In-person",
-    "URL": "https://www.mass.gov/locations/masshire-lowell-career-center",
-    "": ""
-  },
+    "url": "https://www.mass.gov/locations/masshire-lowell-career-center",
+   "populations": [
+   "Job Seekers",
+   "General public"
+  ]  },
   {
     "resource_id": "RES041",
-    "org_id": "ORG026",
+    "municipality": "Lowell", 
     "org_name": "MassHire Greater Lowell Career Center",
     "resource_name": "Printing/Scanning Services",
     "category": "Devices",
     "subcategory": "Printing & Document Services",
     "resource_level": "Service",
     "description": "In-person",
-    "URL": "https://www.mass.gov/locations/masshire-lowell-career-center",
-    "": ""
-  },
+    "url": "https://www.mass.gov/locations/masshire-lowell-career-center",
+   "populations": [
+   "Job Seekers",
+   "General public"
+  ]  },
   {
     "resource_id": "RES042",
-    "org_id": "ORG026",
+    "municipality": "Lowell", 
     "org_name": "MassHire Greater Lowell Career Center",
     "resource_name": "Digital Skills & Job Training",
     "category": "Education_and_Training",
     "subcategory": "Workforce Digital Skills",
     "resource_level": "Resource",
     "description": "Hybrid",
-    "URL": "https://masshirelowellcc.com/jobseekers/training/",
-    "": ""
-  },
+    "url": "https://masshirelowellcc.com/jobseekers/training/",
+   "populations": [
+   "Job Seekers",
+   "General public"
+  ]  },
   {
     "resource_id": "RES043",
-    "org_id": "ORG028",
+    "municipality": "Lowell", 
     "org_name": "Lowell Association for the Blind",
     "resource_name": "Assistive Technology & Training",
     "category": "Accessibility Technology",
     "subcategory": "Assistive Technology",
     "resource_level": "Program",
     "description": "In-person",
-    "URL": "https://www.lowellassociationfortheblind.org/services",
-    "": ""
-  },
+    "url": "https://www.lowellassociationfortheblind.org/services",
+   "populations": [
+   "People with disabilities"
+  ]  },
   {
     "resource_id": "RES044",
-    "org_id": "ORG029",
+    "municipality": "Lowell", 
     "org_name": "Vinfen",
     "resource_name": "Tech Navigator Pilot Program",
     "category": "Support",
     "subcategory": "Broadband Enrollment Assistance",
     "resource_level": "Program",
     "description": "Hybrid",
-    "URL": "https://vinfen.org/services/digital-inclusion-services/",
-    "": ""
-  },
+    "url": "https://vinfen.org/services/digital-inclusion-services/",
+  "populations": [
+  "General public",   
+  "People with disabilities"
+  ]  },
   {
     "resource_id": "RES045",
-    "org_id": "ORG031",
+    "municipality": "Lowell", 
     "org_name": "Kids in Tech",
     "resource_name": "After-school Tech Club",
     "category": "Education_and_Training",
     "subcategory": "STEM & Technology Education",
     "resource_level": "Resource",
     "description": "In-person",
-    "URL": "https://kidsintech.org/afterschool-tech-club-program/",
-    "": ""
-  },
+    "url": "https://kidsintech.org/afterschool-tech-club-program/",
+"populations": [
+  "Low-income",
+  "Youth"   
+  ]  },
   {
     "resource_id": "RES046",
-    "org_id": "ORG034",
+    "municipality": "Lowell", 
     "org_name": "African Community Center of Lowell",
     "resource_name": "Computer Skills Classes",
     "category": "Education_and_Training",
     "subcategory": "Digital Literacy",
     "resource_level": "Resource",
     "description": "In-person",
-    "URL": "https://www.acclowell.org/events",
-    "": ""
-  },
+    "url": "https://www.acclowell.org/events",
+    "populations": [
+  "Immigrants"   
+  ]  },
   {
     "resource_id": "RES047",
-    "org_id": "ORG035",
+    "municipality": "Lowell", 
     "org_name": "Lowell Makes",
     "resource_name": "Makerspace & Digital Skills Training",
     "category": "Education_and_Training",
     "subcategory": "Makerspace Learning",
     "resource_level": "Resource",
     "description": "In-person",
-    "URL": "https://lowellmakes.com/facilities/",
-    "": ""
-  },
+    "url": "https://lowellmakes.com/facilities/",
+    "populations": [
+    "General public"   
+  ]  },
   {
     "resource_id": "RES048",
-    "org_id": "ORG036",
+    "municipality": "Lowell", 
     "org_name": "Lowell TeleMedia Center",
     "resource_name": "Media Training & Equipment Access",
     "category": "Education_and_Training",
     "subcategory": "Digital Media Production",
     "resource_level": "Resource",
     "description": "In-person",
-    "URL": "https://www.ltc.org/services/productions/",
-    "": ""
-  },
+    "url": "https://www.ltc.org/services/productions/",
+    "populations": [
+    "General public"   
+  ]   },
   {
     "resource_id": "RES049",
-    "org_id": "ORG037",
+    "municipality": "Lowell", 
     "org_name": "Collegiate Charter School of Lowell",
     "resource_name": "Adult ESL Digital Literacy Classes",
     "category": "Education_and_Training",
     "subcategory": "ESL Digital Literacy",
     "resource_level": "Resource",
     "description": "In-person",
-    "URL": "https://www.collegiatelowell.org/64399_3",
-    "": ""
+    "url": "https://www.collegiatelowell.org/64399_3",
+    "populations": [
+    "Immigrants"   
+  ]
   },
   {
     "resource_id": "RES050",
-    "org_id": "ORG038",
+    "municipality": "Pepperell", 
     "org_name": "Lawrence Library",
     "resource_name": "Public Wi‑Fi (Indoor/Outdoor)",
     "category": "Connectivity",
     "subcategory": "Public Wi-Fi",
     "resource_level": "Service",
     "description": "In-person",
-    "URL": "https://lawrencelibrary.org/services/public-access-computers",
-    "": ""
+    "url": "https://lawrencelibrary.org/services/public-access-computers",
+   "populations": [
+    "General public"   
+  ]
   },
   {
     "resource_id": "RES051",
-    "org_id": "ORG038",
+    "municipality": "Pepperell", 
     "org_name": "Lawrence Library",
     "resource_name": "Hotspot Lending",
     "category": "Connectivity",
     "subcategory": "Hotspot Lending",
     "resource_level": "Service",
     "description": "Loan-based",
-    "URL": "https://lawrencelibrary.org/services/get-a-library-card",
-    "": ""
+    "url": "https://lawrencelibrary.org/services/get-a-library-card",
+    "populations": [
+    "General public", 
+    "Low-income"  
+  ]
   },
   {
     "resource_id": "RES052",
-    "org_id": "ORG038",
+    "municipality": "Pepperell", 
     "org_name": "Lawrence Library",
     "resource_name": "Computer Stations & Printing",
     "category": "Devices",
     "subcategory": "Public Computers",
     "resource_level": "Service",
     "description": "In-person",
-    "URL": "https://lawrencelibrary.org/services/public-access-computers",
-    "": ""
+    "url": "https://lawrencelibrary.org/services/public-access-computers",
+    "populations": [
+    "General public"
+  ]
   },
   {
     "resource_id": "RES053",
-    "org_id": "ORG040",
+    "municipality": "Pepperell", 
     "org_name": "Peter Fitzpatrick Collaborative",
     "resource_name": "Digital Training Programs",
     "category": "Education_and_Training",
     "subcategory": "Digital Literacy",
     "resource_level": "Program",
     "description": "In-person",
-    "URL": "https://www.fitzpatrickcollaborative.org/",
-    "": ""
-  },
+    "url": "https://www.fitzpatrickcollaborative.org/",
+    "populations": [
+    "General public"
+  ]  },
   {
     "resource_id": "RES054",
-    "org_id": "ORG041",
+    "municipality": "Pepperell", 
     "org_name": "Town of Pepperell",
     "resource_name": "Public Wi‑Fi (Municipal Building)",
     "category": "Connectivity",
     "subcategory": "Public Wi-Fi",
     "resource_level": "Service",
     "description": "In-person",
-    "URL": "https://town.pepperell.ma.us/195/6055/Information-Technology",
-    "": ""
-  },
+    "url": "https://town.pepperell.ma.us/195/6055/Information-Technology",
+    "populations": [
+    "General public"
+  ]  },
   {
     "resource_id": "RES055",
-    "org_id": "ORG041",
+    "municipality": "Pepperell", 
     "org_name": "Town of Pepperell",
     "resource_name": "Online Municipal Services",
     "category": "Civic Access",
     "subcategory": "Digital Government Services",
     "resource_level": "Platform",
     "description": "Online",
-    "URL": "https://www.town.pepperell.ma.us/135/Online-Payments",
-    "": ""
-  },
+    "url": "https://www.town.pepperell.ma.us/135/Online-Payments",
+    "populations": [
+    "General public"
+  ]  },
   {
     "resource_id": "RES056",
-    "org_id": "ORG041",
+    "municipality": "Pepperell", 
     "org_name": "Town of Pepperell",
     "resource_name": "Digital Engagement (Social Media)",
     "category": "Civic Access",
     "subcategory": "Digital Public Information",
     "resource_level": "Platform",
     "description": "Online",
-    "URL": "https://town.pepperell.ma.us/588/Social-Media-and-Websites",
-    "": ""
-  },
+    "url": "https://town.pepperell.ma.us/588/Social-Media-and-Websites",
+    "populations": [
+    "General public"
+  ]  },
   {
     "resource_id": "RES057",
-    "org_id": "ORG045",
+    "municipality": "Tewksbury", 
     "org_name": "Tewksbury Public Library",
     "resource_name": "Public Wi‑Fi",
     "category": "Connectivity",
     "subcategory": "Public Wi-Fi",
     "resource_level": "Service",
     "description": "In-person",
-    "URL": "https://www.tewksburypl.org/about-us/files/internet-policy",
-    "": ""
-  },
+    "url": "https://www.tewksburypl.org/about-us/files/internet-policy",
+    "populations": [
+    "General public"
+  ]  },
   {
     "resource_id": "RES058",
-    "org_id": "ORG045",
+    "municipality": "Tewksbury", 
     "org_name": "Tewksbury Public Library",
     "resource_name": "Public Computers & Workstations",
     "category": "Devices",
     "subcategory": "Public Computers",
     "resource_level": "Service",
     "description": "In-person",
-    "URL": "https://www.tewksburypl.org/resources/pages/printing-services-1",
-    "": ""
-  },
+    "url": "https://www.tewksburypl.org/resources/pages/printing-services-1",
+    "populations": [
+    "General public"
+  ]  },
   {
     "resource_id": "RES059",
-    "org_id": "ORG045",
+    "municipality": "Tewksbury", 
     "org_name": "Tewksbury Public Library",
     "resource_name": "Printing/Scanning Services",
     "category": "Devices",
     "subcategory": "Printing & Document Services",
     "resource_level": "Service",
     "description": "In-person",
-    "URL": "https://www.tewksburypl.org/resources/pages/printing-services-1",
-    "": ""
-  },
+    "url": "https://www.tewksburypl.org/resources/pages/printing-services-1",
+    "populations": [
+    "General public"
+  ]  },
   {
     "resource_id": "RES060",
-    "org_id": "ORG045",
+    "municipality": "Tewksbury", 
     "org_name": "Tewksbury Public Library",
     "resource_name": "IT Assistance",
     "category": "Support",
     "subcategory": "Technical Assistance",
     "resource_level": "Service",
     "description": "In-person",
-    "URL": "https://www.tewksburypl.org/home/bulletins/tech-help-weekly-appointments",
-    "": ""
-  },
+    "url": "https://www.tewksburypl.org/home/bulletins/tech-help-weekly-appointments",
+    "populations": [
+    "General public", 
+    "Seniors"
+  ]  },
   {
     "resource_id": "RES061",
-    "org_id": "ORG045",
+    "municipality": "Tewksbury", 
     "org_name": "Tewksbury Public Library",
     "resource_name": "Printing/Scanning/Fax Services",
     "category": "Devices",
     "subcategory": "Printing & Document Services",
     "resource_level": "Service",
     "description": "Hybrid",
-    "URL": "https://www.tewksburypl.org/resources/pages/printing-services-1",
-    "": ""
-  },
+    "url": "https://www.tewksburypl.org/resources/pages/printing-services-1",
+    "populations": [
+    "General public"
+  ]  },
   {
     "resource_id": "RES062",
-    "org_id": "ORG045",
+    "municipality": "Tewksbury", 
     "org_name": "Tewksbury Public Library",
     "resource_name": "Digital Literacy Training",
     "category": "Education_and_Training",
     "subcategory": "Digital Literacy",
     "resource_level": "Resource",
     "description": "In-person",
-    "URL": "https://www.tewksburypl.org/sites/g/files/vyhlif3916/f/uploads/tech_help_resources_1.pdf",
-    "": ""
-  },
+    "url": "https://www.tewksburypl.org/sites/g/files/vyhlif3916/f/uploads/tech_help_resources_1.pdf",
+    "populations": [
+    "General public", 
+    "Seniors"
+  ]  },
   {
     "resource_id": "RES063",
-    "org_id": "ORG045",
+    "municipality": "Tewksbury", 
     "org_name": "Tewksbury Public Library",
     "resource_name": "English Language Learning Resources",
     "category": "Education_and_Training",
     "subcategory": "ESL Digital Literacy",
     "resource_level": "Resource",
     "description": "Online",
-    "URL": "https://www.tewksburypl.org/sites/g/files/vyhlif3916/f/uploads/esl_resources_1.pdf",
-    "": ""
-  },
+    "url": "https://www.tewksburypl.org/sites/g/files/vyhlif3916/f/uploads/esl_resources_1.pdf",
+    "populations": [
+    "Immigrants", 
+    "Non-English speakers" 
+  ]  },
   {
     "resource_id": "RES064",
-    "org_id": "ORG047",
+    "municipality": "Tewksbury", 
     "org_name": "Town of Tewksbury",
     "resource_name": "Online Municipal Services",
     "category": "Civic Access",
     "subcategory": "Digital Government Services",
     "resource_level": "Platform",
     "description": "Online",
-    "URL": "https://www.tewksbury-ma.gov/601/Online-Services",
-    "": ""
-  },
+    "url": "https://www.tewksbury-ma.gov/601/Online-Services",
+    "populations": [
+    "General public"
+  ]  },
   {
     "resource_id": "RES065",
-    "org_id": "ORG047",
+    "municipality": "Tewksbury", 
     "org_name": "Town of Tewksbury",
     "resource_name": "Accessible Website Platform",
     "category": "Accessibility",
     "subcategory": "Website Accessibility",
     "resource_level": "Platform",
     "description": "Online",
-    "URL": "https://tewksbury-ma.gov/153/Accessibility",
-    "": ""
-  },
+    "url": "https://tewksbury-ma.gov/153/Accessibility",
+    "populations": [
+    "General public", 
+    "People with disabilities" 
+  ]  },
   {
     "resource_id": "RES066",
-    "org_id": "ORG047",
+    "municipality": "Tewksbury", 
     "org_name": "Town of Tewksbury",
     "resource_name": "Public Wi‑Fi (Municipal Locations)",
     "category": "Connectivity",
     "subcategory": "Public Wi-Fi",
     "resource_level": "Service",
     "description": "In-person",
-    "URL": "https://www.tewksbury-ma.gov/",
-    "": ""
-  },
+    "url": "https://www.tewksbury-ma.gov/",
+    "populations": [
+    "General public", 
+  ]   },
   {
     "resource_id": "RES067",
-    "org_id": "ORG048",
+    "municipality": "Tewksbury", 
     "org_name": "Tewksbury Telemedia Department",
     "resource_name": "Cable Customer Support",
     "category": "Support",
     "subcategory": "Customer Support",
     "resource_level": "Service",
     "description": "Hybrid",
-    "URL": "https://tewksbury-ma.gov/311/Telemedia-Department",
-    "": ""
-  },
+    "url": "https://tewksbury-ma.gov/311/Telemedia-Department",
+    "populations": [
+    "General public", 
+  ]  },
   {
     "resource_id": "RES068",
-    "org_id": "ORG050",
+    "municipality": "Tyngsborough", 
     "org_name": "Tyngsborough Public Library",
     "resource_name": "Laptop Lending",
     "category": "Connectivity",
     "subcategory": "Laptop Lending",
     "resource_level": "Service",
     "description": "Loan-based",
-    "URL": "https://mvlc.ent.sirsi.net/client/en_US/tyngsborough/search/detailnonmodal/ent:$002f$002fSD_ILS$002f0$002fSD_ILS:1573725/one",
-    "": ""
-  },
+    "url": "https://mvlc.ent.sirsi.net/client/en_US/tyngsborough/search/detailnonmodal/ent:$002f$002fSD_ILS$002f0$002fSD_ILS:1573725/one",
+    "populations": [
+    "General public", 
+  ]  },
   {
     "resource_id": "RES069",
-    "org_id": "ORG050",
+    "municipality": "Tyngsborough", 
     "org_name": "Tyngsborough Public Library",
     "resource_name": "Public Wi‑Fi",
     "category": "Connectivity",
     "subcategory": "Public Wi-Fi",
     "resource_level": "Service",
     "description": "In-Person",
-    "URL": "https://www.tynglib.org/services/",
-    "": ""
-  },
+    "url": "https://www.tynglib.org/services/",
+    "populations": [
+    "General public", 
+  ]  },
   {
     "resource_id": "RES070",
-    "org_id": "ORG050",
+    "municipality": "Tyngsborough", 
     "org_name": "Tyngsborough Public Library",
     "resource_name": "Printing/Scanning Services",
     "category": "Devices",
     "subcategory": "Printing & Document Services",
     "resource_level": "Service",
     "description": "In-Person",
-    "URL": "https://www.tynglib.org/home/",
-    "": ""
-  },
+    "url": "https://www.tynglib.org/home/",
+    "populations": [
+    "General public", 
+  ]  },
   {
     "resource_id": "RES071",
-    "org_id": "ORG052",
+    "municipality": "Tyngsborough", 
     "org_name": "Town of Tyngsborough",
     "resource_name": "Online Services (311, Bill Pay, etc.)",
     "category": "Civic Access",
     "subcategory": "Digital Government Services",
     "resource_level": "Platform",
     "description": "Online",
-    "URL": "https://www.tyngsboroughma.gov/",
-    "": ""
-  },
+    "url": "https://www.tyngsboroughma.gov/",
+    "populations": [
+    "General public", 
+  ]  },
   {
     "resource_id": "RES072",
-    "org_id": "ORG056",
+    "municipality": "Westford", 
     "org_name": "J.V. Fletcher Library",
     "resource_name": "Public Wi‑Fi",
     "category": "Connectivity",
     "subcategory": "Public Wi-Fi",
     "resource_level": "Service",
     "description": "In-Person",
-    "URL": "https://westfordlibrary.org/services/wifi-public-computers-laptops/",
-    "": ""
-  },
+    "url": "https://westfordlibrary.org/services/wifi-public-computers-laptops/",
+    "populations": [
+    "General public", 
+  ]  },
   {
     "resource_id": "RES073",
-    "org_id": "ORG056",
+    "municipality": "Westford", 
     "org_name": "J.V. Fletcher Library",
     "resource_name": "Public Computers & Workstations",
     "category": "Devices",
     "subcategory": "Public Computers",
     "resource_level": "Service",
     "description": "In-person",
-    "URL": "https://westfordlibrary.org/services/wifi-public-computers-laptops/",
-    "": ""
-  },
+    "url": "https://westfordlibrary.org/services/wifi-public-computers-laptops/",
+    "populations": [
+    "General public", 
+  ]  },
   {
     "resource_id": "RES074",
-    "org_id": "ORG056",
+    "municipality": "Westford", 
     "org_name": "J.V. Fletcher Library",
     "resource_name": "Hotspot Lending",
     "category": "Connectivity",
     "subcategory": "Hotspot Lending",
     "resource_level": "Service",
     "description": "Loan-based",
-    "URL": "https://westfordlibrary.org/services/library-of-things/",
-    "": ""
-  },
+    "url": "https://westfordlibrary.org/services/library-of-things/",
+    "populations": [
+    "General public", 
+    "Low-income" 
+  ]  },
   {
     "resource_id": "RES075",
-    "org_id": "ORG056",
+    "municipality": "Westford", 
     "org_name": "J.V. Fletcher Library",
     "resource_name": "Printing/Scanning Services",
     "category": "Devices",
     "subcategory": "Printing & Document Services",
     "resource_level": "Service",
     "description": "In-Person",
-    "URL": "https://westfordlibrary.org/services/copy-fax-print-scan/",
-    "": ""
-  },
+    "url": "https://westfordlibrary.org/services/copy-fax-print-scan/",
+    "populations": [
+    "General public"
+  ]  },
   {
     "resource_id": "RES076",
-    "org_id": "ORG058",
+    "municipality": "Westford", 
     "org_name": "Town of Westford",
     "resource_name": "Online Services (311, Bill Pay, etc.)",
     "category": "Civic Access",
     "subcategory": "Digital Government Services",
     "resource_level": "Platform",
     "description": "Online",
-    "URL": "https://westfordma.gov/189/Pay-Look-Up-Bills",
-    "": ""
-  },
+    "url": "https://westfordma.gov/189/Pay-Look-Up-Bills",
+    "populations": [
+    "General public"
+  ]  },
   {
     "resource_id": "RES077",
-    "org_id": "ORG066",
+    "municipality": "National", 
     "org_name": "Xfinity",
     "resource_name": "Affordable Internet",
     "category": "Connectivity",
     "subcategory": "Affordable Internet Program",
     "resource_level": "Program",
     "description": "Online",
-    "URL": "https://www.xfinity.com/learn/internet-service/internet-essentials",
-    "": ""
-  },
+    "url": "https://www.xfinity.com/learn/internet-service/internet-essentials",
+    "populations": [
+    "Low-income",
+    "Veteran"
+  ]  },
   {
     "resource_id": "RES078",
-    "org_id": "ORG067",
+    "municipality": "National", 
     "org_name": "AT&T",
     "resource_name": "Affordable Internet",
     "category": "Connectivity",
     "subcategory": "Affordable Internet Program",
     "resource_level": "Program",
     "description": "Online",
-    "URL": "https://www.att.com/internet/access/",
-    "": ""
-  },
+    "url": "https://www.att.com/internet/access/",
+    "populations": [
+    "Low-income"
+  ]  },
   {
     "resource_id": "RES079",
-    "org_id": "ORG068",
+    "municipality": "National", 
     "org_name": "Astound",
     "resource_name": "Affordable Internet",
     "category": "Connectivity",
     "subcategory": "Affordable Internet Program",
     "resource_level": "Program",
     "description": "Online",
-    "URL": "https://www.astound.com/internetfirst/",
-    "": ""
-  },
+    "url": "https://www.astound.com/internetfirst/",
+    "populations": [
+    "Low-income"
+  ]  },
   {
     "resource_id": "RES080",
-    "org_id": "ORG069",
+    "municipality": "National", 
     "org_name": "Lifeline Support Program",
     "resource_name": "Lifeline Support",
     "category": "Connectivity",
     "subcategory": "Broadband Subsidy Program",
     "resource_level": "Program",
     "description": "Online",
-    "URL": "https://www.lifelinesupport.org/",
-    "": ""
-  },
+    "url": "https://www.lifelinesupport.org/",
+    "populations": [
+    "Low-income"
+  ]  },
   {
     "resource_id": "RES081",
-    "org_id": "ORG070",
+    "municipality": "Haverhill", 
     "org_name": "Make It Haverhill",
     "resource_name": "Computer Skills Training",
     "category": "Education_and_Training",
     "subcategory": "Digital Literacy",
     "resource_level": "Resource",
     "description": "In-person",
-    "URL": "https://www.makeithaverhill.com/digital-literacy",
-    "": ""
-  },
+    "url": "https://www.makeithaverhill.com/digital-literacy",
+    "populations": [
+    "General public"
+  ]  },
   {
     "resource_id": "RES082",
-    "org_id": "ORG070",
+    "municipality": "Haverhill", 
     "org_name": "Make It Haverhill",
     "resource_name": "Workforce-Ready Workshops",
     "category": "Education_and_Training",
     "subcategory": "Workforce Digital Skills",
     "resource_level": "Resource",
     "description": "In-person",
-    "URL": "https://www.makeithaverhill.com/digital-literacy",
-    "": ""
-  },
+    "url": "https://www.makeithaverhill.com/digital-literacy",
+    "populations": [
+    "General public"
+  ]  },
   {
     "resource_id": "RES083",
-    "org_id": "ORG070",
+    "municipality": "Haverhill", 
     "org_name": "Make It Haverhill",
     "resource_name": "Tech Support & Public Computer Access",
     "category": "Support",
     "subcategory": "Technical Assistance",
     "resource_level": "Resource",
     "description": "In-person",
-    "URL": "https://www.makeithaverhill.com/digital-literacy",
-    "": ""
-  },
+    "url": "https://www.makeithaverhill.com/digital-literacy",
+    "populations": [
+    "General public"
+  ]  },
   {
     "resource_id": "RES084",
-    "org_id": "ORG070",
+    "municipality": "Haverhill", 
     "org_name": "Make It Haverhill",
     "resource_name": "Device Lending Program",
     "category": "Devices",
     "subcategory": "Device Lending",
     "resource_level": "Service",
     "description": "In-person",
-    "URL": "https://www.makeithaverhill.com/digital-literacy",
-    "": ""
-  },
+    "url": "https://www.makeithaverhill.com/digital-literacy",
+    "populations": [
+    "General public", 
+    "Organizations"
+  ]  },
   {
     "resource_id": "RES085",
-    "org_id": "ORG071",
+    "municipality": "National", 
     "org_name": "American Library Association",
     "resource_name": "Digital Literacy Workshop Incentives",
     "category": "Education_and_Training",
     "subcategory": "Professional Development",
     "resource_level": "Program",
     "description": "Online",
-    "URL": "https://www.ala.org/pla/initiatives/digitalliteracy",
-    "": ""
-  },
+    "url": "https://www.ala.org/pla/initiatives/digitalliteracy",
+   "populations": [
+    "Educators"  ]   },
   {
     "resource_id": "RES086",
-    "org_id": "ORG072",
+    "municipality": "National", 
     "org_name": "Digital Learn",
     "resource_name": "Starting out",
     "category": "Education_and_Training",
     "subcategory": "Digital Literacy",
     "resource_level": "Resource",
     "description": "Online",
-    "URL": "https://www.digitallearn.org/courses#category-starting-out",
-    "": ""
-  },
+    "url": "https://www.digitallearn.org/courses#category-starting-out",
+    "populations": [
+    "General public"
+  ]  },
   {
     "resource_id": "RES087",
-    "org_id": "ORG072",
+    "municipality": "National", 
     "org_name": "Digital Learn",
     "resource_name": "Connecting with Others",
     "category": "Education_and_Training",
     "subcategory": "Digital Literacy",
     "resource_level": "Resource",
     "description": "Online",
-    "URL": "https://www.digitallearn.org/courses#category-connecting-with-others",
-    "": ""
-  },
+    "url": "https://www.digitallearn.org/courses#category-connecting-with-others",
+    "populations": [
+    "General public"
+  ]  },
   {
     "resource_id": "RES088",
-    "org_id": "ORG072",
+    "municipality": "National", 
     "org_name": "Digital Learn",
     "resource_name": "Being Safe Online",
     "category": "Education_and_Training",
     "subcategory": "Digital Literacy",
     "resource_level": "Resource",
     "description": "Online",
-    "URL": "https://www.digitallearn.org/courses#category-being-safe-online",
-    "": ""
-  },
+    "url": "https://www.digitallearn.org/courses#category-being-safe-online",
+    "populations": [
+    "General public"
+  ]  },
   {
     "resource_id": "RES089",
-    "org_id": "ORG072",
+    "municipality": "National", 
     "org_name": "Digital Learn",
     "resource_name": "Job Skills",
     "category": "Education_and_Training",
     "subcategory": "Digital Literacy",
     "resource_level": "Resource",
     "description": "Online",
-    "URL": "https://www.digitallearn.org/courses#category-job-skills",
-    "": ""
-  },
+    "url": "https://www.digitallearn.org/courses#category-job-skills",
+ "populations": [
+    "Job Seekers"
+  ]  },
   {
     "resource_id": "RES090",
-    "org_id": "ORG072",
+    "municipality": "National", 
     "org_name": "Digital Learn",
     "resource_name": "Being Productive",
     "category": "Education_and_Training",
     "subcategory": "Digital Literacy",
     "resource_level": "Resource",
     "description": "Online",
-    "URL": "https://www.digitallearn.org/courses#category-being-productive",
-    "": ""
-  },
+    "url": "https://www.digitallearn.org/courses#category-being-productive",
+    "populations": [
+    "General public"
+  ]  },
   {
     "resource_id": "RES091",
-    "org_id": "ORG072",
+    "municipality": "National", 
     "org_name": "Digital Learn",
     "resource_name": "Mobile Devices",
     "category": "Education_and_Training",
     "subcategory": "Digital Literacy",
     "resource_level": "Resource",
     "description": "Online",
-    "URL": "https://www.digitallearn.org/courses#category-mobile-devices",
-    "": ""
-  },
+    "url": "https://www.digitallearn.org/courses#category-mobile-devices",
+    "populations": [
+    "General public"
+  ]  },
   {
     "resource_id": "RES092",
-    "org_id": "ORG073",
+    "municipality": "National", 
     "org_name": "Connect Safely",
     "resource_name": "Connect Safely",
     "category": "Education_and_Training",
     "subcategory": "Internet Safety",
     "resource_level": "Resource",
     "description": "Online",
-    "URL": "https://connectsafely.org/",
-    "": ""
-  },
+    "url": "https://connectsafely.org/",
+    "populations": [
+    "General public", 
+    "Parents", 
+    "Seniors"]  },
   {
     "resource_id": "RES093",
-    "org_id": "ORG074",
+    "municipality": "National", 
     "org_name": "Connect Safely",
     "resource_name": "Computers 101",
     "category": "Education_and_Training",
     "subcategory": "Digital Literacy",
     "resource_level": "Resource",
     "description": "Online",
-    "URL": "https://www.learnfree.org/explore/computers-101",
-    "": ""
-  },
+    "url": "https://www.learnfree.org/explore/computers-101",
+    "populations": [
+    "General public"]  },
   {
     "resource_id": "RES094",
-    "org_id": "ORG074",
+    "municipality": "National", 
     "org_name": "Connect Safely",
     "resource_name": "The Internet",
     "category": "Education_and_Training",
     "subcategory": "Digital Literacy",
     "resource_level": "Resource",
     "description": "Online",
-    "URL": "https://www.learnfree.org/explore/the-internet",
-    "": ""
-  },
+    "url": "https://www.learnfree.org/explore/the-internet",
+    "populations": [
+    "General public"]  },
   {
     "resource_id": "RES095",
-    "org_id": "ORG074",
+    "municipality": "National", 
     "org_name": "Connect Safely",
     "resource_name": "AI Skills & Learning",
     "category": "Education_and_Training",
     "subcategory": "Digital Literacy",
     "resource_level": "Resource",
     "description": "Online",
-    "URL": "https://www.learnfree.org/explore/ai-skills-and-learning",
-    "": ""
-  },
+    "url": "https://www.learnfree.org/explore/ai-skills-and-learning",
+    "populations": [
+    "General public", 
+    "Educators",
+    "Job Seekers"]  },
   {
     "resource_id": "RES096",
-    "org_id": "ORG075",
+    "municipality": "National", 
     "org_name": "Senior Planet",
     "resource_name": "Save Money",
     "category": "Connectivity",
     "subcategory": "Affordable Internet Program",
     "resource_level": "Resource",
     "description": "Online",
-    "URL": "https://www.seniorplanet.org/save-money-on-internet",
-    "": ""
-  },
+    "url": "https://www.seniorplanet.org/save-money-on-internet",
+    "populations": [
+    "Seniors"]  },
   {
     "resource_id": "RES097",
-    "org_id": "ORG075",
+    "municipality": "National", 
     "org_name": "Senior Planet",
     "resource_name": "Online Classes",
     "category": "Support",
     "subcategory": "Digital Literacy",
     "resource_level": "Resource",
     "description": "Online",
-    "URL": "https://seniorplanet.org/classes?topic=1069#criteria",
-    "": ""
-  },
+    "url": "https://seniorplanet.org/classes?topic=1069#criteria",
+    "populations": [
+    "Seniors"]   },
   {
     "resource_id": "RES098",
-    "org_id": "ORG076",
+    "municipality": "National", 
     "org_name": "Cyber Seniors",
     "resource_name": "Cyber Seniors Support & Trainings",
     "category": "Support",
     "subcategory": "Digital Navigation",
     "resource_level": "Program",
     "description": "Online",
-    "URL": "https://cyberseniors.org/",
-    "": ""
-  },
+    "url": "https://cyberseniors.org/",
+    "populations": [
+    "Seniors"]   },
   {
     "resource_id": "RES099",
-    "org_id": "ORG078",
+    "municipality": "National", 
     "org_name": "Tech Life Unity",
     "resource_name": "Educational Website",
     "category": "Education_and_Training",
     "subcategory": "Digital Literacy",
     "resource_level": "Resource",
     "description": "Online",
-    "URL": "https://www.techlifeunity.com/",
-    "": ""
-  },
+    "url": "https://www.techlifeunity.com/",
+    "populations": [
+    "General public"]   },
   {
     "resource_id": "RES100",
-    "org_id": "ORG079",
+    "municipality": "National", 
     "org_name": "AARP Foundation",
     "resource_name": "Get Your Digital Skills Up to Speed",
     "category": "Education_and_Training",
     "subcategory": "Senior Digital Literacy",
     "resource_level": "Resource",
     "description": "Online",
-    "URL": "https://www.aarp.org/aarp-foundation/digital-skills.html",
-    "": ""
-  },
+    "url": "https://www.aarp.org/aarp-foundation/digital-skills.html",
+    "populations": [
+    "Seniors"]   },
   {
     "resource_id": "RES101",
-    "org_id": "ORG080",
+    "municipality": "Regional/Online", 
     "org_name": "Commit to Connect",
     "resource_name": "Commit to Connect Resource Hub\r\nShow more lines",
     "category": "Support",
     "subcategory": "Referral Services",
     "resource_level": "Resource",
     "description": "Online",
-    "URL": "https://acl.gov/CommitToConnect/tech",
-    "": ""
-  },
+    "url": "https://acl.gov/CommitToConnect/tech",
+    "populations": [
+    "Seniors", 
+    "Caregivers", 
+    "Organizations"]  },
   {
     "resource_id": "RES102",
-    "org_id": "ORG081",
+    "municipality": "Regional/Online", 
     "org_name": "Daily Caring",
     "resource_name": "Affordable Internet for Seniors",
     "category": "Connectivity",
     "subcategory": "Affordable Internet",
     "resource_level": "Resource",
     "description": "Online",
-    "URL": "https://dailycaring.com/7-sources-of-low-cost-internet-for-seniors/",
-    "": ""
-  },
+    "url": "https://dailycaring.com/7-sources-of-low-cost-internet-for-seniors/",
+    "populations": [
+    "Seniors"]  },
   {
     "resource_id": "RES103",
-    "org_id": "ORG082",
+    "municipality": "Regional/Online", 
     "org_name": "EveryoneOn",
     "resource_name": "Find Low-Cost Internet Service and Computers in Your Area",
     "category": "Service",
     "subcategory": "Affordable Internet",
     "resource_level": "Service",
     "description": "Online",
-    "URL": "https://www.everyoneon.org/find-offers",
-    "": ""
-  },
+    "url": "https://www.everyoneon.org/find-offers",
+    "populations": [
+    "General public", 
+    "Low-income"]  },
   {
     "resource_id": "RES104",
-    "org_id": "ORG083",
+    "municipality": "Regional/Online", 
     "org_name": "Federal Trade Commission",
     "resource_name": "Pass It On Scam Information",
     "category": "Education_and_Training",
     "subcategory": "Internet Safety",
     "resource_level": "Resource",
     "description": "Online",
-    "URL": "https://consumer.ftc.gov/features/pass-it-on/resources",
-    "": ""
-  },
+    "url": "https://consumer.ftc.gov/features/pass-it-on/resources",
+    "populations": [
+    "General public", 
+    "Non-English speakers", 
+    "Seniors"]  },
   {
     "resource_id": "RES105",
-    "org_id": "ORG084",
+    "municipality": "Regional/Online", 
     "org_name": "Office for Victims of Crime",
     "resource_name": "National Elder Fraud Hotline",
     "category": "Support",
     "subcategory": "Referral Services",
     "resource_level": "Service",
     "description": "Phone/Online",
-    "URL": "https://ovc.ojp.gov/program/stop-elder-fraud/providing-help-restoring-hope",
-    "": ""
-  },
+    "url": "https://ovc.ojp.gov/program/stop-elder-fraud/providing-help-restoring-hope",
+   "populations": [
+    "Caregivers", 
+    "Seniors"]  },
   {
     "resource_id": "RES106",
-    "org_id": "ORG085",
+    "municipality": "Regional/Online", 
     "org_name": "Dunstable Public Library",
     "resource_name": "Public Wi‑Fi",
     "category": "Connectivity",
     "subcategory": "Public Wi-Fi",
     "resource_level": "Service",
     "description": "In-Person",
-    "URL": "https://www.dunstable-ma.gov/dunstable-free-public-library/news/need-laptop-or-wi-fi-we%E2%80%99ve-got-you-covered",
-    "": ""
-  },
+    "url": "https://www.dunstable-ma.gov/dunstable-free-public-library/news/need-laptop-or-wi-fi-we%E2%80%99ve-got-you-covered",
+    "populations": [
+    "General public"]   },
   {
     "resource_id": "RES107",
-    "org_id": "ORG085",
+    "municipality": "Dunstable", 
     "org_name": "Dunstable Public Library",
     "resource_name": "Hotspot Lending",
     "category": "Connectivity",
     "subcategory": "Hotspot Lending",
     "resource_level": "Service",
     "description": "Loan-based",
-    "URL": "https://mvlc.ent.sirsi.net/client/en_US/dunstable/search/detailnonmodal/ent:$002f$002fSD_ILS$002f0$002fSD_ILS:1169829/one?qu=hotpot&lm=LIBRARY_OF_THINGS",
-    "": ""
-  },
+    "url": "https://mvlc.ent.sirsi.net/client/en_US/dunstable/search/detailnonmodal/ent:$002f$002fSD_ILS$002f0$002fSD_ILS:1169829/one?qu=hotpot&lm=LIBRARY_OF_THINGS",
+    "populations": [
+    "General public", 
+    "Low-income"]  },
   {
     "resource_id": "RES108",
-    "org_id": "ORG085",
+    "municipality": "Dunstable", 
     "org_name": "Dunstable Public Library",
     "resource_name": "Laptop Lending",
     "category": "Connectivity",
     "subcategory": "Laptop Lending",
     "resource_level": "Service",
     "description": "Loan-based",
-    "URL": "https://mvlc.ent.sirsi.net/client/en_US/dunstable/search/detailnonmodal/ent:$002f$002fSD_ILS$002f0$002fSD_ILS:1540544/one?qu=laptop&lm=LIBRARY_OF_THINGS",
-    "": ""
-  },
+    "url": "https://mvlc.ent.sirsi.net/client/en_US/dunstable/search/detailnonmodal/ent:$002f$002fSD_ILS$002f0$002fSD_ILS:1540544/one?qu=laptop&lm=LIBRARY_OF_THINGS",
+    "populations": [
+    "General public"]  },
   {
     "resource_id": "RES109",
-    "org_id": "ORG086",
+    "municipality": "Regional/Online", 
     "org_name": "WifiMap",
     "resource_name": "Public Wi-Fi",
     "category": "Connectivity",
     "subcategory": "Public Wi-Fi",
     "resource_level": "Service",
     "description": "Online",
-    "URL": "WiFi Map - All your connectivity needs in one place",
-    "": ""
-  },
+    "url": "WiFi Map - All your connectivity needs in one place",
+    "populations": [
+    "General public"]  },
   {
     "resource_id": "RES110",
-    "org_id": "ORG088",
+    "municipality": "Regional/Online", 
     "org_name": "Identity Theft Resource Center",
     "resource_name": "Victim Help Center",
     "category": "Support",
     "subcategory": "Referral Services",
     "resource_level": "Resource",
     "description": "Online",
-    "URL": "https://www.idtheftcenter.org/victim-help-center/",
-    "": ""
-  },
+    "url": "https://www.idtheftcenter.org/victim-help-center/",
+    "populations": [
+    "General public", 
+    "Seniors"]  },
   {
     "resource_id": "RES111",
-    "org_id": "ORG089",
+    "municipality": "Regional/Online", 
     "org_name": "Google Applied Digital Skills",
     "resource_name": "Applied Digital Skills",
     "category": "Education_and_Training",
     "subcategory": "Digital Literacy",
     "resource_level": "Resource",
     "description": "Online",
-    "URL": "https://edu.exceedlms.com/student/catalog/list?category_ids=10934-for-students-applied-digital-skills",
-    "": ""
-  },
+    "url": "https://edu.exceedlms.com/student/catalog/list?category_ids=10934-for-students-applied-digital-skills",
+    "populations": [
+    "General public", 
+    "Seniors", 
+    "Job Seekers"]  },
   {
     "resource_id": "RES112",
-    "org_id": "ORG090",
+    "municipality": "Regional/Online", 
     "org_name": "WebAIM",
     "resource_name": "Web Accessibility Articles and Resources",
     "category": "Accessibility",
     "subcategory": "Inclusion Technology",
     "resource_level": "Resource",
     "description": "Online",
-    "URL": "https://webaim.org/articles/",
-    "": ""
-  },
+    "url": "https://webaim.org/articles/",
+    "populations": [
+    "Educators", 
+    "Organizations", 
+    "People with disabilities"]   },
   {
     "resource_id": "RES113",
-    "org_id": "ORG091",
+    "municipality": "Regional/Online", 
     "org_name": "National Digital Inclusion Alliance (NDIA)",
     "resource_name": "Digital Inclusion Resource Library",
     "category": "Accessibility",
     "subcategory": "Inclusion Technology",
     "resource_level": "Resource",
     "description": "Online",
-    "URL": "https://www.digitalinclusion.org/resources/",
-    "": ""
-  },
+    "url": "https://www.digitalinclusion.org/resources/",
+    "populations": [
+    "Educators", 
+    "Organizations", 
+    "People with disabilities"]  },
   {
     "resource_id": "RES114",
-    "org_id": "ORG003",
+    "municipality": "Billerica", 
     "org_name": "Billerica Public Library",
     "resource_name": "Chromebook Lending",
     "category": "Connectivity",
     "subcategory": "Laptop Lending",
     "resource_level": "Service",
     "description": "Loan-based",
-    "URL": "https://mvlc.ent.sirsi.net/client/en_US/billerica/search/detailnonmodal/ent:$002f$002fSD_ILS$002f0$002fSD_ILS:1573725/one",
-    "": ""
-  },
+    "url": "https://mvlc.ent.sirsi.net/client/en_US/billerica/search/detailnonmodal/ent:$002f$002fSD_ILS$002f0$002fSD_ILS:1573725/one",
+    "populations": [
+    "General public"]  },
   {
     "resource_id": "RES115",
-    "org_id": "ORG007",
+    "municipality": "Chelmsford", 
     "org_name": "Chelmsford Public Library",
     "resource_name": "Chromebook Lending",
     "category": "Connectivity",
     "subcategory": "Laptop Lending",
     "resource_level": "Service",
     "description": "Loan-based",
-    "URL": "https://mvlc.ent.sirsi.net/client/en_US/chelmsford/search/detailnonmodal/ent:$002f$002fSD_ILS$002f0$002fSD_ILS:1573725/one",
-    "": ""
-  },
+    "url": "https://mvlc.ent.sirsi.net/client/en_US/chelmsford/search/detailnonmodal/ent:$002f$002fSD_ILS$002f0$002fSD_ILS:1573725/one",
+    "populations": [
+    "General public"]   },
   {
     "resource_id": "RES116",
-    "org_id": "ORG083",
+    "municipality": "Regional/Online", 
     "org_name": "Federal Trade Commission",
     "resource_name": "Available internet services",
     "category": "Connectivity",
     "subcategory": "Digital Government Services",
     "resource_level": "Resource",
     "description": "Online",
-    "URL": "https://broadbandmap.fcc.gov/home",
-    "": ""
-  }
+    "url": "https://broadbandmap.fcc.gov/home",
+    "populations": [
+    "General public"]   }
 ]
