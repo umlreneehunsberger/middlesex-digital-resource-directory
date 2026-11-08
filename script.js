@@ -37,14 +37,27 @@ function showResults(results){
     container.innerHTML += `
       <div class="card">
         <h3>${item.resource_name}</h3>
-        <p>${item.organization}</p>
-        <p>${item.category}</p>
-        <a href="${item.url}"
-           target="_blank">
-           Visit Resource
+
+        <p><strong>Organization:</strong>
+           ${item.organization}</p>
+
+        <p><strong>Municipality:</strong>
+           ${item.municipality}</p>
+
+        <p><strong>Category:</strong>
+           ${item.category}</p>
+
+        <p><strong>Population:</strong>
+           ${item.populations.join(', ')}</p>
+
+        <p>${item.description}</p>
+
+        <a href="${item.url}" target="_blank">
+          Visit Resource
         </a>
       </div>
     `;
 
   });
+
 }
