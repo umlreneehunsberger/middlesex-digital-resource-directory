@@ -1,13 +1,361 @@
-body{
-  font-family: Arial;
-  max-width:1000px;
-  margin:auto;
-  padding:20px;
+/* ------------------------------
+   Global styles
+------------------------------ */
+
+:root {
+    --navy: #18364b;
+    --teal: #176b68;
+    --teal-light: #e8f3f1;
+    --background: #f4f7f8;
+    --white: #ffffff;
+    --text: #253746;
+    --muted: #60717d;
+    --border: #dce5e9;
+    --shadow: 0 3px 12px rgba(24, 54, 75, 0.07);
 }
 
-.card{
-  border:1px solid #ddd;
-  padding:15px;
-  margin:10px 0;
-  border-radius:8px;
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--background);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+button,
+input,
+select {
+    font: inherit;
+}
+
+a {
+    color: var(--teal);
+}
+
+/* ------------------------------
+   Header
+------------------------------ */
+
+.site-header {
+    background: var(--navy);
+    color: var(--white);
+    padding: 55px 24px 60px;
+}
+
+.header-content {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.eyebrow {
+    color: #b9dcd8;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 0 0 12px;
+}
+
+.site-header h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    line-height: 1.15;
+    margin: 0 0 18px;
+}
+
+.intro {
+    max-width: 720px;
+    font-size: 1.1rem;
+    color: #e4eef2;
+    margin: 0;
+}
+
+/* ------------------------------
+   Main layout
+------------------------------ */
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 35px 24px 55px;
+}
+
+.search-section {
+    background: var(--white);
+    padding: 28px;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    box-shadow: var(--shadow);
+}
+
+.search-section h2,
+.feedback-section h2 {
+    color: var(--navy);
+    margin: 0 0 5px;
+    font-size: 1.5rem;
+}
+
+.section-description {
+    color: var(--muted);
+    margin: 0 0 22px;
+}
+
+/* ------------------------------
+   Search and filters
+------------------------------ */
+
+.search-controls {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.field label {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: var(--navy);
+}
+
+.field input,
+.field select {
+    width: 100%;
+    min-height: 46px;
+    padding: 10px 12px;
+    border: 1px solid #bdcbd2;
+    border-radius: 7px;
+    background: var(--white);
+    color: var(--text);
+}
+
+.field input:focus,
+.field select:focus,
+button:focus-visible,
+a:focus-visible {
+    outline: 3px solid #e5b95c;
+    outline-offset: 2px;
+}
+
+.filter-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+#results-count {
+    margin: 0;
+    font-weight: bold;
+    color: var(--navy);
+}
+
+.clear-button {
+    border: 1px solid var(--teal);
+    background: var(--white);
+    color: var(--teal);
+    padding: 9px 16px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.clear-button:hover {
+    background: var(--teal-light);
+}
+
+/* ------------------------------
+   Resource cards
+------------------------------ */
+
+.results-section {
+    margin-top: 28px;
+}
+
+.results-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.resource-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 23px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 0;
+}
+
+.resource-card:hover {
+    border-color: #9bbfbb;
+}
+
+.category-tag {
+    display: inline-block;
+    background: var(--teal-light);
+    color: #155653;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.78rem;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.resource-title {
+    color: var(--navy);
+    font-size: 1.2rem;
+    line-height: 1.35;
+    margin: 0 0 7px;
+}
+
+.organization {
+    color: var(--muted);
+    font-weight: bold;
+    margin: 0 0 16px;
+}
+
+.resource-details {
+    width: 100%;
+    margin: 0 0 18px;
+}
+
+.detail-row {
+    display: grid;
+    grid-template-columns: minmax(105px, 0.8fr) 1.5fr;
+    gap: 10px;
+    padding: 8px 0;
+    border-top: 1px solid #edf1f3;
+}
+
+.detail-row dt {
+    color: var(--muted);
+    font-size: 0.88rem;
+    font-weight: bold;
+}
+
+.detail-row dd {
+    margin: 0;
+    font-size: 0.9rem;
+    overflow-wrap: anywhere;
+}
+
+.resource-link {
+    display: inline-block;
+    margin-top: auto;
+    padding: 10px 15px;
+    background: var(--teal);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+.resource-link:hover {
+    background: #105451;
+    text-decoration: underline;
+}
+
+/* ------------------------------
+   Empty and error messages
+------------------------------ */
+
+.empty-message,
+.error-message {
+    grid-column: 1 / -1;
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 24px;
+    color: var(--muted);
+}
+
+.error-message {
+    border-left: 5px solid #b34b42;
+    color: #81352e;
+}
+
+/* ------------------------------
+   Feedback and footer
+------------------------------ */
+
+.feedback-section {
+    margin-top: 38px;
+    padding: 24px;
+    background: var(--teal-light);
+    border-radius: 12px;
+}
+
+.feedback-section p {
+    margin-bottom: 0;
+}
+
+.site-footer {
+    background: var(--navy);
+    color: #e4eef2;
+    text-align: center;
+    padding: 24px;
+    font-size: 0.9rem;
+}
+
+.site-footer p {
+    margin: 4px 0;
+}
+
+/* ------------------------------
+   Mobile layout
+------------------------------ */
+
+@media (max-width: 850px) {
+    .search-controls {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .site-header {
+        padding: 38px 20px;
+    }
+
+    .container {
+        padding: 22px 15px 40px;
+    }
+
+    .search-section {
+        padding: 20px;
+    }
+
+    .search-controls,
+    .results-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .filter-actions {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .clear-button {
+        width: 100%;
+    }
+
+    .resource-card {
+        padding: 19px;
+    }
+
+    .detail-row {
+        grid-template-columns: 1fr;
+        gap: 2px;
+    }
 }
