@@ -1519,8 +1519,7 @@
     "resource_name": "Chromebook Lending",
     "category": "Connectivity",
     "subcategory": "Laptop Lending",
-    "resource
-_level": "Service",
+    "resource_level": "Service",
     "description": "Loan-based",
     "url": "https://mvlc.ent.sirsi.net/client/en_US/chelmsford/search/detailnonmodal/ent:$002f$002fSD_ILS$002f0$002fSD_ILS:1573725/one",
     "populations": [
