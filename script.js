@@ -1,63 +1,97 @@
-fetch('data/resources.json')
-  .then(res => res.json())
-  .then(data => {
+let allResources = [];
 
-    const searchBox =
-      document.getElementById('search');
+const searchBox = document.getElementById("search");
+const resultsContainer = document.getElementById("results");
 
-    searchBox.addEventListener('input', () => {
+async function loadResources() {
+    try {
+        const response = await fetch("./data/resources.json");
 
-      const value =
-        searchBox.value.toLowerCase();
+        if (!response.ok) {
+            throw new Error(`Could not load resources.json: ${response.status}`);
+        }
 
-      const results =
-        data.filter(item =>
-          JSON.stringify(item)
+        allResources = await response.json();
+
+        showResults(allResources);
+
+        searchBox.addEventListener("input", searchResources);
+
+    } catch (error) {
+        console.error("Database loading error:", error);
+
+        resultsContainer.textContent =
+            "Sorry, the resource database could not be loaded. Please check the JSON file and try again.";
+    }
+}
+
+function searchResources() {
+    const searchValue = searchBox.value.trim().toLowerCase();
+
+    const filteredResources = allResources.filter(resource => {
+        return JSON.stringify(resource)
             .toLowerCase()
-            .includes(value)
-        );
-
-      showResults(results);
-
+            .includes(searchValue);
     });
 
-    showResults(data);
-
-  });
-
-function showResults(results){
-
-  const container =
-    document.getElementById('results');
-
-  container.innerHTML = '';
-
-  results.forEach(item => {
-
-    container.innerHTML += `
-      <div class="card">
-        <h3>${item.resource_name}</h3>
-
-        <p><strong>Organization:</strong>
-           ${item.organization}</p>
-
-        <p><strong>Municipality:</strong>
-           ${item.municipality}</p>
-
-        <p><strong>Category:</strong>
-           ${item.category}</p>
-
-        <p><strong>Population:</strong>
-           ${item.populations.join(', ')}</p>
-
-        <p>${item.description}</p>
-
-        <a href="${item.url}" target="_blank">
-          Visit Resource
-        </a>
-      </div>
-    `;
-
-  });
-
+    showResults(filteredResources);
 }
+
+function showResults(results) {
+    resultsContainer.innerHTML = "";
+
+    if (results.length === 0) {
+        resultsContainer.textContent =
+            "No resources found. Try a different search.";
+        return;
+    }
+
+    results.forEach(item => {
+        const card = document.createElement("div");
+        card.className = "card";
+
+        const title = document.createElement("h3");
+        title.textContent = item.resource_name || "Unnamed Resource";
+        card.appendChild(title);
+
+        const fields = [
+            ["Organization", item.organization],
+            ["Municipality", item.municipality],
+            ["Category", item.category],
+            ["Subcategory", item.subcategory],
+            ["Resource Type", item.resource_level],
+            ["Availability", item.description],
+            ["Populations Served", (item.populations || []).join(", ")]
+        ];
+
+        fields.forEach(([label, value]) => {
+            if (value) {
+                const paragraph = document.createElement("p");
+                const strong = document.createElement("strong");
+
+                strong.textContent = label + ": ";
+                paragraph.appendChild(strong);
+                paragraph.appendChild(
+                    document.createTextNode(value)
+                );
+
+                card.appendChild(paragraph);
+            }
+        });
+
+        if (item.url && /^https?:\/\//i.test(item.url)) {
+            const link = document.createElement("a");
+
+            link.href = item.url;
+            link.textContent = "Visit Resource";
+            link.target = "_blank";
+            link.rel = "noopener noreferrer";
+
+            card.appendChild(link);
+        }
+
+        resultsContainer.appendChild(card);
+    });
+}
+
+loadResources();
