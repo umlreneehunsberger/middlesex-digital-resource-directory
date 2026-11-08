@@ -269,7 +269,7 @@
     "description": "In-person",
     "url": "https://www.chelmsfordma.gov/",
    "populations": [
-    "General public",
+    "General public"
   ]  },
   {
     "resource_id": "RES021",
@@ -297,7 +297,7 @@
     "description": "In-person",
     "url": "https://www.chelmsfordma.gov/223/Council-on-Aging-Senior-Center",
 "populations": [
-    "Seniors",
+    "Seniors"
   ]   },
   {
     "resource_id": "RES023",
@@ -430,7 +430,7 @@
     "description": "In-person",
     "url": "https://lowelllibrary.org/services/",
     "populations": [
-    "General public", 
+    "General public"
   ]   },
   {
     "resource_id": "RES033",
@@ -889,7 +889,7 @@
     "description": "In-person",
     "url": "https://www.tewksbury-ma.gov/",
     "populations": [
-    "General public", 
+    "General public"
   ]   },
   {
     "resource_id": "RES067",
@@ -902,7 +902,7 @@
     "description": "Hybrid",
     "url": "https://tewksbury-ma.gov/311/Telemedia-Department",
     "populations": [
-    "General public", 
+    "General public"
   ]  },
   {
     "resource_id": "RES068",
@@ -915,7 +915,7 @@
     "description": "Loan-based",
     "url": "https://mvlc.ent.sirsi.net/client/en_US/tyngsborough/search/detailnonmodal/ent:$002f$002fSD_ILS$002f0$002fSD_ILS:1573725/one",
     "populations": [
-    "General public", 
+    "General public"
   ]  },
   {
     "resource_id": "RES069",
@@ -928,7 +928,7 @@
     "description": "In-Person",
     "url": "https://www.tynglib.org/services/",
     "populations": [
-    "General public", 
+    "General public"
   ]  },
   {
     "resource_id": "RES070",
@@ -941,7 +941,7 @@
     "description": "In-Person",
     "url": "https://www.tynglib.org/home/",
     "populations": [
-    "General public", 
+    "General public"
   ]  },
   {
     "resource_id": "RES071",
@@ -954,7 +954,7 @@
     "description": "Online",
     "url": "https://www.tyngsboroughma.gov/",
     "populations": [
-    "General public", 
+    "General public"
   ]  },
   {
     "resource_id": "RES072",
@@ -967,7 +967,7 @@
     "description": "In-Person",
     "url": "https://westfordlibrary.org/services/wifi-public-computers-laptops/",
     "populations": [
-    "General public", 
+    "General public"
   ]  },
   {
     "resource_id": "RES073",
@@ -980,7 +980,7 @@
     "description": "In-person",
     "url": "https://westfordlibrary.org/services/wifi-public-computers-laptops/",
     "populations": [
-    "General public", 
+    "General public"
   ]  },
   {
     "resource_id": "RES074",
@@ -1334,7 +1334,7 @@
     "resource_id": "RES101",
     "municipality": "Regional/Online", 
     "organization": "Commit to Connect",
-    "resource_name": "Commit to Connect Resource Hub\r\nShow more lines",
+    "resource_name": "Commit to Connect Resource Hub",
     "category": "Support",
     "subcategory": "Referral Services",
     "resource_level": "Resource",
@@ -1519,7 +1519,8 @@
     "resource_name": "Chromebook Lending",
     "category": "Connectivity",
     "subcategory": "Laptop Lending",
-    "resource_level": "Service",
+    "resource
+_level": "Service",
     "description": "Loan-based",
     "url": "https://mvlc.ent.sirsi.net/client/en_US/chelmsford/search/detailnonmodal/ent:$002f$002fSD_ILS$002f0$002fSD_ILS:1573725/one",
     "populations": [
