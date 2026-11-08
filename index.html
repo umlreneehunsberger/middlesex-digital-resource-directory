@@ -1,31 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Resource Directory</title>
+
+    <meta name="description" content="Explore digital access, technology, connectivity, and learning resources in Greater Lowell.">
+
+    <title>Greater Lowell Digital Resource Directory</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <header class="site-header">
+        <div class="header-content">
+            <p class="eyebrow">COMMUNITY RESOURCE GUIDE</p>
+            <h1>Greater Lowell Digital Resource Directory</h1>
+            <p class="intro">
+                Find local technology resources, digital skills training,
+                internet access, devices, and support throughout Greater Lowell.
+            </p>
+        </div>
+    </header>
 
-    <h1>Greater Lowell Digital Resource Directory</h1>
+    <main class="container">
+        <section class="search-section" aria-labelledby="search-heading">
+            <h2 id="search-heading">Find a resource</h2>
+            <p class="section-description">
+                Search by keyword or narrow your results using the filters.
+            </p>
 
-    <p>
-        Welcome to the Greater Lowell area digital resources directory.
-    </p>
+            <div class="search-controls">
+                <div class="field search-field">
+                    <label for="search">Search resources</label>
+                    <input
+                        type="search"
+                        id="search"
+                        placeholder="Try Wi-Fi, computer classes, library..."
+                        autocomplete="off"
+                    >
+                </div>
 
-    <input
-        type="text"
-        id="search"
-        placeholder="Search resources..."
-        aria-label="Search digital resources"
-    >
+                <div class="field">
+                    <label for="municipality-filter">Community</label>
+                    <select id="municipality-filter">
+                        <option value="">All communities</option>
+                    </select>
+                </div>
 
-    <div id="results"></div>
+                <div class="field">
+                    <label for="category-filter">Category</label>
+                    <select id="category-filter">
+                        <option value="">All categories</option>
+                    </select>
+                </div>
+
+                <div class="field">
+                    <label for="level-filter">Resource type</label>
+                    <select id="level-filter">
+                        <option value="">All resource types</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="filter-actions">
+                <p id="results-count" aria-live="polite">
+                    Loading resources...
+                </p>
+
+                <button id="clear-filters" class="clear-button" type="button">
+                    Clear all filters
+                </button>
+            </div>
+        </section>
+
+        <section class="results-section" aria-label="Directory results">
+            <div id="results" class="results-grid" aria-live="polite">
+                <p>Loading the resource directory...</p>
+            </div>
+        </section>
+
+        <section class="feedback-section">
+            <h2>Help keep this directory useful</h2>
+            <p>
+                Resource information can change. Please confirm details with
+                the organization before visiting or relying on a service.
+            </p>
+            <!-- Add a verified feedback form URL here when one is available. -->
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Greater Lowell Digital Resource Directory</p>
+        <p>Connecting residents with local digital opportunities and support.</p>
+    </footer>
 
     <script src="script.js"></script>
-
 </body>
 </html>
