@@ -30,7 +30,7 @@ function showResults(results){
   const container =
     document.getElementById('results');
 
-  container.innerHTML='';
+  container.innerHTML = '';
 
   results.forEach(item => {
 
